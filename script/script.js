@@ -372,4 +372,4 @@ ne gosterecek display, bunlari dushunmek lazimdi ++++++++ */
 */
 
 // yeni bug tapdim, sifir. Demek olar ard-arda sonsuz sifir elave etmek olar, bunun qarshishin kesmek lazimdi
-// clearClicksle baglidi da bug var, baxarsan ona da
+// clearClicksle baglidi da bug var, baxarsan ona da -- nese aglima geldi,  2-ye bolunub bolunmemesine esasen C ve ya CE funksiyasinin ishe dushemsini anlamaq olar.

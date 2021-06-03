@@ -1,12 +1,24 @@
+html {
+    background-color:#DAAD86;
+}
+
+#calculator {
+    margin: auto;
+    width: 400px;
+    border: 2px solid green;
+    padding: 10px;
+}
+
 #calcBody {
     display:grid;
-    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-columns: 100px 100px 100px 100px;
 }
 #equal {
-    width: 100px;
+    width: 200px;
 }
 #calcDisplay {
-    width: 598px;
+    background-color: aliceblue;
+    width: 398px;
     height: 50px;
     border: 1px solid black;
     text-align: right;
