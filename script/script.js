@@ -78,15 +78,15 @@ operatorList.forEach(operator => {
         dotClickAmount = 0;
         if (buttonClickAmount === 1) {
             attribute = operator.getAttribute('id');
-            // console.log(whichOperator[attribute]);
+
             whichOperator[attribute] = true;
         } else {
             equality();
             a = result;    // ikinci defe operator basilanda result itmesin deye onun valuesi ilk operanda kocurulur.
             attribute = operator.getAttribute('id');
-            // console.log(whichOperator[attribute]); 
+ 
             whichOperator[attribute] = true;
-            // buttonClickAmount = 0;
+
         }
 
         if (a !== '') {
@@ -107,7 +107,7 @@ plus.addEventListener('click', () => {
 
 const equal = document.querySelector('#equal');
 function equality () {
-    // buttonClickAmount = 0;
+
     dotPositionLength = 0;
     dotClickAmount = 0;
     switch (true) {
@@ -265,7 +265,7 @@ function operatorKeyInput(key) {
 }
 
 function keyToButton(e) {
-    console.log(e.keyCode);
+    
     switch (e.keyCode) {
         case 49:
             aTrue? a = a + 1 : b = b + 1;
