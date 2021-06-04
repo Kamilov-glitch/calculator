@@ -265,7 +265,7 @@ function operatorKeyInput(key) {
 }
 
 function keyToButton(e) {
-    
+
     switch (e.keyCode) {
         case 49:
             aTrue? a = a + 1 : b = b + 1;
@@ -373,3 +373,5 @@ ne gosterecek display, bunlari dushunmek lazimdi ++++++++ */
 
 // yeni bug tapdim, sifir. Demek olar ard-arda sonsuz sifir elave etmek olar, bunun qarshishin kesmek lazimdi
 // clearClicksle baglidi da bug var, baxarsan ona da -- nese aglima geldi,  2-ye bolunub bolunmemesine esasen C ve ya CE funksiyasinin ishe dushemsini anlamaq olar.
+// klaviaturadan 2 defe minus edende reqem menfi edede cevrilir (makes no sense, work on it) -- it is somehow fixed now.
+// dizayn daha yaxshi veziyyete getirilmelidir.
